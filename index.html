@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Website </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0737219c03.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Education</a></li>
+                    <li><a href="#portfolio">Hobbies</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"></div>
+                <h1>Hi, I'm <span>Airand</span><br>Orienda Gr.8 of Tr.Paulline</h1>
+        </div>
+    </div>
+    <!-- -----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_20230305_222820.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, This are some information About Me
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Education</p>
+                        <p class="tab-links" onclick="opentab('education')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Time Management</span><br>I have Time Management which is the ability to use one's time effectively or productively, especially at work.</li>
+                            <li><span>Teamwork</span><br>I have team work skills which is the mix of skills that an employee uses to contribute to the group, and skills used to make the most out of everyone's contributions.</li>
+                            <li><span>Problem Solving</span><br>i have problem solving which the act of defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>Table Tennis<span> </span><br></li>
+                            <li>Basketball<span> </span><br></li>
+                            <li>Swimming<span> </span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Elementary Graduate</span><br>I Graduated Elementary at Little Shepherd Integrated Montessori.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Educational Background</h1>
+            <div class="services-list">
+                <div>
+                    
+                    <h2>Merit Award</h2>
+                    <p>march 27 2023 LSIM-LSBHS Sports Fest I am awarded as the best rebounder in basketbal</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    
+                    <h2>Officer of the class</h2>
+                    <p>last year i had the privelege of serving as the class peace officer and run for student council</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    
+                    <h2>Achievements</h2>
+                    <p>march 27 2023 LSIM-LSBHS Sports Fest, the SUPREMES achieved the Championship Trophy</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies and Activities</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/basketball.jpg">
+                <div class="layer">
+                    <h3>Basketball</h3>
+                    <p>Basketball is one of my hobbies</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/zero waste.jpg">
+                <div class="layer">
+                    <h3>Organization</h3>
+                    <p>i Joined an Organization that cleans the lumban plaza</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                <img src="images/IMG_20230426_174501.jpg">
+                <div class="layer">
+                    <h3>Photography</h3>
+                    <p>Photography is one of my Hobbies </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                
+                </div>
+            </div> 
+    </div>
+        <a href="#" class="btn">See more</a>
+</div>
+<!-- -------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contack-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>airandbotorienda@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09554867450</p>
+                <div class="social-icons">
+                    <a href=" https://www.facebook.com/ronairand.orienda.35?mibextid=ZbWKwL" i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/airand_orienda?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contack-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Airand Orienda. made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+</html>
